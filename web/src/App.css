@@ -1,0 +1,178 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: calc(100vw - 100px);
+  border: solid 1px red;
+}
+
+.filters {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filters h4 {
+  margin-right: 10px;
+}
+.launchItem {
+  display: flex;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgb(0 0 0 / 61%);
+  margin-bottom: 10px;
+  flex-direction: column;
+  font-size: 16px;
+  color: #fff;
+}
+
+.launchItemRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.launchImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 130px;
+  max-width: 130px;
+  align-items: center;
+  background-color: #000;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.launchImage img {
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.launchType {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.launchDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.subDetails div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.h6 {
+  text-transform: uppercase;
+  text-align: start;
+  font-weight: 650;
+}
+
+.p {
+  margin-bottom: 5px;
+}
+
+.linksDetails {
+  text-align: start;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.links button {
+  background-color: black;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  height: 25px;
+  width: 25px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: initial;
+}
+
+.links button svg{
+  color: #ffff;
+  height: 12px;
+  width: 12px;
+}
+
+.launchItemRow {
+  text-align: start;
+}
+
+.launchBottomRow {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
